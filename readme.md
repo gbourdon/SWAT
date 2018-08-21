@@ -12,6 +12,7 @@ Not yet, but it might soon.
 ### Working on
 - Minimum and Maximum password age
 - Minimum password length
+- Password History Length
 - Any users without passwords
 - Lists all administrators and warns if there are more than two (including the built in account)
 ### Soon

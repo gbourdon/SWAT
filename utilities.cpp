@@ -139,3 +139,13 @@ std::vector<std::string> get_groups(std::string user, std::string server)
 
 	return out;
 }
+
+int sec_to_day(int day)
+{
+	return day / 86400;;
+}
+
+int day_to_sec(int sec)
+{
+	return  sec * 86400;;
+}
