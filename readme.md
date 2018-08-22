@@ -1,3 +1,5 @@
+<img src="https://image.flaticon.com/icons/svg/188/188017.svg" alt="Flyswatter icon" width="100"/>
+
 # SWAT
 ## Super Windows Audit Tool
 ### SWAT checks to see if the machine it runs on conforms to CyberPatriot standards (Currently using [this](https://s3.amazonaws.com/cpvii/Training+materials/Unit+Five+-+Microsoft+Windows+Security.pdf) standard)
@@ -20,3 +22,6 @@ Not yet, but it might soon.
 - Complexity Requirements
 - Reversible encryption
 - Locking out accounts after too many failed logon attempts
+
+## Attribution
+Program Icon made by [Roundicons](https://roundicons.com/) from [www.flaticon.com](www.flaticon.com) 
