@@ -103,21 +103,8 @@ int System::min_pass_age()
 	// If the call succeeds, print the global information.
 	//
 	if (nStatus == NERR_Success)
-	{
-		/*
-		if (pBuf != NULL)
-		{
-			printf("\tMinimum password length:  %d\n", pBuf->usrmod0_min_passwd_len);
-			printf("\tMaximum password age (d): %d\n", pBuf->usrmod0_max_passwd_age / 86400);
-			printf("\tMinimum password age (d): %d\n", pBuf->usrmod0_min_passwd_age / 86400);
-			printf("\tForced log off time (s):  %d\n", pBuf->usrmod0_force_logoff);
-			printf("\tPassword history length:  %d\n", pBuf->usrmod0_password_hist_len);
-		}
-		*/
 		age = pBuf->usrmod0_min_passwd_age;
-	}
 	// Otherwise, print the system error.
-	//
 	else
 		fprintf(stderr, "A system error has occurred: %d\n", nStatus);
 	//
@@ -151,21 +138,8 @@ int System::max_pass_age()
 	// If the call succeeds, print the global information.
 	//
 	if (nStatus == NERR_Success)
-	{
-		/*
-		if (pBuf != NULL)
-		{
-			printf("\tMinimum password length:  %d\n", pBuf->usrmod0_min_passwd_len);
-			printf("\tMaximum password age (d): %d\n", pBuf->usrmod0_max_passwd_age / 86400);
-			printf("\tMinimum password age (d): %d\n", pBuf->usrmod0_min_passwd_age / 86400);
-			printf("\tForced log off time (s):  %d\n", pBuf->usrmod0_force_logoff);
-			printf("\tPassword history length:  %d\n", pBuf->usrmod0_password_hist_len);
-		}
-		*/
 		age = pBuf->usrmod0_max_passwd_age;
-	}
 	// Otherwise, print the system error.
-	//
 	else
 		fprintf(stderr, "A system error has occurred: %d\n", nStatus);
 	//
@@ -198,19 +172,7 @@ int System::min_pass_len()
 	// If the call succeeds, print the global information.
 	//
 	if (nStatus == NERR_Success)
-	{
-		/*
-		if (pBuf != NULL)
-		{
-			printf("\tMinimum password length:  %d\n", pBuf->usrmod0_min_passwd_len);
-			printf("\tMaximum password age (d): %d\n", pBuf->usrmod0_max_passwd_age / 86400);
-			printf("\tMinimum password age (d): %d\n", pBuf->usrmod0_min_passwd_age / 86400);
-			printf("\tForced log off time (s):  %d\n", pBuf->usrmod0_force_logoff);
-			printf("\tPassword history length:  %d\n", pBuf->usrmod0_password_hist_len);
-		}
-		*/
 		len = pBuf->usrmod0_min_passwd_len;
-	}
 	// Otherwise, print the system error.
 	//
 	else
@@ -244,19 +206,7 @@ int System::pass_hist_len()
 	// If the call succeeds, print the global information.
 	//
 	if (nStatus == NERR_Success)
-	{
-		/*
-		if (pBuf != NULL)
-		{
-			printf("\tMinimum password length:  %d\n", pBuf->usrmod0_min_passwd_len);
-			printf("\tMaximum password age (d): %d\n", pBuf->usrmod0_max_passwd_age / 86400);
-			printf("\tMinimum password age (d): %d\n", pBuf->usrmod0_min_passwd_age / 86400);
-			printf("\tForced log off time (s):  %d\n", pBuf->usrmod0_force_logoff);
-			printf("\tPassword history length:  %d\n", pBuf->usrmod0_password_hist_len);
-		}
-		*/
 		len = pBuf->usrmod0_password_hist_len;
-	}
 	// Otherwise, print the system error.
 	//
 	else

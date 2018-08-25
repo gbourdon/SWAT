@@ -144,19 +144,6 @@ std::vector<std::string> User::groups()
 				dwTotalCount++;
 			}
 		}
-		//
-		// If all available entries were
-		//  not enumerated, print the number actually 
-		//  enumerated and the total number available.
-		//
-		//if (dwEntriesRead < dwTotalEntries)
-		//fprintf(stderr, "\nTotal entries: %d", dwTotalEntries);
-		//
-		// Otherwise, just print the total.
-		//
-		//printf("\nEntries enumerated: %d\n", dwTotalCount);
-
-
 	}
 	else {
 		fprintf(stderr, "A system error has occurred: %d\n", nStatus);
