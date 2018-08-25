@@ -72,6 +72,14 @@ bool User::is_pass_blank()
 	return true;
 }
 
+bool User::is_real()
+{
+	std::vector<std::string> group = groups();
+	if (std::find(group.begin(), group.end(), "Administrators") != group.end() || std::find(group.begin(), group.end(), "Users") != group.end())
+		return true;
+	return false;
+}
+
 std::vector<std::string> User::groups()
 {
 	std::wstring userW = s_to_wide_s(user);

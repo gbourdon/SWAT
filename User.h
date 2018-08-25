@@ -15,6 +15,8 @@ public:
 	bool is_admin();
 	// Returns if the user's password is blank
 	bool is_pass_blank();
+	// Returns if the user is an actual user
+	bool is_real();
 	// Returns the groups the user is in
 	std::vector<std::string> groups();
 private:

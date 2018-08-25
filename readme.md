@@ -15,9 +15,10 @@ Not yet, but it might soon.
 - Minimum and Maximum password age
 - Minimum password length
 - Password History Length
-### Working on
 - Any users without passwords
 - Lists all administrators and warns if there are more than two (including the built in account)
+### Working on
+- Locking out accounts after too many failed logon attempts
 ### Soon
 - Locking out accounts after too many failed logon attempts
 - If the built in Guest and Administrator accounts are enabled
