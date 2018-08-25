@@ -11,17 +11,18 @@ Run the tool as Administrator, and it will check to see if there are any issues.
 Not yet, but it might soon.
 
 ## What does this check for?
-### Working on
+### Ready
 - Minimum and Maximum password age
 - Minimum password length
 - Password History Length
+### Working on
 - Any users without passwords
 - Lists all administrators and warns if there are more than two (including the built in account)
 ### Soon
+- Locking out accounts after too many failed logon attempts
 - If the built in Guest and Administrator accounts are enabled
 - Complexity Requirements
 - Reversible encryption
-- Locking out accounts after too many failed logon attempts
 
 ## Attribution
 Program Icon made by [Roundicons](https://roundicons.com/) from [www.flaticon.com](www.flaticon.com) 
