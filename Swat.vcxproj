@@ -169,6 +169,7 @@
     <ClCompile Include="utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="readme.md" />
     <None Include="user.md" />
   </ItemGroup>
   <ItemGroup>

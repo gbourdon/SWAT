@@ -77,5 +77,8 @@
     <None Include="user.md">
       <Filter>Source Files\User</Filter>
     </None>
+    <None Include="readme.md">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
